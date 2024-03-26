@@ -92,3 +92,20 @@ The architecture introduces a new way of creating React compnonents, splitting t
 
 3. Every folder corresponds to a path segment in the browser URL.
 
+### Routing
+
+1. Suppose you want to show About page content on the screen. For that create a new folder with name 'about' and inside that folder, create a page.tsx file, and write your page content.
+
+- about
+-- page.tsx
+
+2. Nested route
+
+Suppose you want to show different Blogs data, like First blog or Second blog.
+
+For that, create a new folder with name 'blog' and inside that folder, create a file named 'page.tsx' and write your blog page content.
+
+inside blog folder, create a folder named "first" and inside that folder, create a file with named 'page.tsx' and write your first blog content.
+
+do above same thing for second blog.
+
