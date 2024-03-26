@@ -109,3 +109,12 @@ inside blog folder, create a folder named "first" and inside that folder, create
 
 do above same thing for second blog.
 
+### Dynamic routes
+
+If our application is big, that time making static nested routes will not be a good solution.
+
+for that we will create dynamic routes.
+
+To create dynamic routes, create a new folder with names [productId].
+
+next.js treats a folder name wrapped inside [] as dynamic value.
