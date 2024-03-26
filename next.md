@@ -118,3 +118,13 @@ for that we will create dynamic routes.
 To create dynamic routes, create a new folder with names [productId].
 
 next.js treats a folder name wrapped inside [] as dynamic value.
+
+### Private folder
+
+1. A private folder indicates that it is a private implementation detail and should not be considered by the routing system.
+
+2. The folder and all its subfolders are execuded from routing.
+
+3. Prefix the folder name with an underscore.
+
+4. For separating ui logic from routing logic.
